@@ -154,7 +154,6 @@ nextButton.addEventListener("click", function(e){
                 resultImage.src = result().foto
             }else{
                 score = score + questions[index].answers[i].value
-                alert(score)
                 radios[i].checked = false
                 showQuestions()
             }
